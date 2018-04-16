@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,800,800italic,700);
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+/***********Top Bar***********/
+.top-header {
+    background: #00a4ef;
+}
+
+
+ul.top-navbar-left {
+    list-style-type: none;
+    display: inline;
+	float: left;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+
+.top-navbar-left li {
+    display: inline;
+	margin-right: 10px;
+}
+
+ul.top-navbar-right {
+    list-style-type: none;
+    display: inline;
+	float: right;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+
+.top-navbar-right li {
+    display: inline;
+	margin-right: 10px;
+}
+
+.top-navbar-left li a .fa{
+	color:white;
+}
+
+
+.top-navbar-right li a .fa{
+	margin-right: 10px;
+	color:white;
+}
+
+.top-navbar-right li a{
+	color:white;
+}
